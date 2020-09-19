@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Landing Page - Start Bootstrap Theme</title>
 
@@ -28,8 +29,20 @@
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+     <form action="/action_page.php" method="post" target="_blank">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="cnumber">Contact number:</label>
+  <input type="text" id="cnumber" name="cnumber"><br><br>
+  <label for="rarea">Residential Area:</label>
+  <input type="text" id="rarea" name="rarea"><br><br>
+  <label for="ygraduate">Year of graduate:</label>
+  <input type="text" id="ygraduate" name="ygraduate"><br><br>
+  <label for="proginformation">Programme information:</label>
+  <input type="text" id="proginformation" name="proginformation"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
     </div>
   </nav>
 
